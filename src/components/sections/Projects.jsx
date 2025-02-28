@@ -15,7 +15,7 @@ export const Projects = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
+                        <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2"> Zakra Theme Website</h3>
                             <p className="text-gray-400 mb-4">
                                 Scalable wordpress theme official site to purchase 
@@ -46,7 +46,7 @@ export const Projects = () => {
                         </div>  
 
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
+                        <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2"> Tutor LMS</h3>
                             <p className="text-gray-400 mb-4">
                                 Scalable wordpress theme official site to purchase 
@@ -76,7 +76,7 @@ export const Projects = () => {
 
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
+                        <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2"> Car-Dealership Ecommerce</h3>
                             <p className="text-gray-400 mb-4">
                                 Scalable wordpress theme official site to purchase 
@@ -107,7 +107,7 @@ export const Projects = () => {
                         </div>
 
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
+                        <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2"> Encapsulator Website</h3>
                             <p className="text-gray-400 mb-4">
                                 Scalable wordpress theme official site to purchase 
