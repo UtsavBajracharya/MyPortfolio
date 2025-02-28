@@ -13,8 +13,7 @@ export const Home = () => {
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I have a passion for creating visually appealing and user-friendly web interfaces. 
-            My journey started with small projects and has grown into a full-fledged career in UI/UX design and front-end development.
+                 Building Creative Designs Since <strong>2021</strong>
             </p>
 
             <div className="flex justify-center space-x-4">

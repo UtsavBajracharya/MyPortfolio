@@ -21,11 +21,11 @@ export const About = () => {
 
     return ( 
         <section
-            id= "about" 
+        id= "about" 
         className="min-h-screen flex items-center justify-center py-20"
         >
 
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent text-center">
                 {" "}
                 About Me
@@ -33,8 +33,9 @@ export const About = () => {
 
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
-                    Passionate developer with expertise in building scalable web
-                    applications and creating innvative solutions.
+                    I began my career in frontend developer, worked as a junior developer & designer at a tech company.
+                        I have a passion for creating visually appealing and user-friendly web interfaces. 
+                        My journey started with small projects and has grown into a full-fledged career in UI/UX design and front-end development.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
