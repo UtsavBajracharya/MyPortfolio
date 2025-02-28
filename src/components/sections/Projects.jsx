@@ -36,7 +36,7 @@ export const Projects = () => {
 
                             <div className="flex-justify-between items-center">
                                 <a 
-                                href="#" 
+                                href="https://zakratheme.com/" 
                                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                                 > 
                                 View Project →
@@ -67,7 +67,7 @@ export const Projects = () => {
 
                             <div className="flex-justify-between items-center">
                                 <a 
-                                href="#" 
+                                href="https://themegrilldemos.com/elearning-tutor/" 
                                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                                 > 
                                 View Project →
@@ -97,7 +97,7 @@ export const Projects = () => {
 
                             <div className="flex-justify-between items-center">
                                 <a 
-                                href="#" 
+                                href="https://utsavbajracharya.github.io/AutoBeast-Car-Dealer/" 
                                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                                 > 
                                 View Project → 
@@ -128,7 +128,7 @@ export const Projects = () => {
 
                             <div className="flex-justify-between items-center">
                                 <a 
-                                href="#" 
+                                href="https://encapsulator.io/" 
                                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                                 > 
                                 View Project →

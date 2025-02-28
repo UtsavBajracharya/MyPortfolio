@@ -2,11 +2,15 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
     return ( 
-    <section 
-      id="home" 
-      className="min-h-screen flex items-center justify-center relative"
-      
-    >
+        <section
+            id="home"
+            className="min-h-screen flex items-center justify-center relative bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: "url('/https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }} // Replace with your image path
+        >
+            {/* Dark Overlay */}
+
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
+
         <RevealOnScroll>
             <div className="text-center z-10 px-4">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
@@ -18,10 +22,14 @@ export const Home = () => {
                 </p>
 
                 <div className="flex justify-center space-x-4">
-                    <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 
+                    <a href="" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download="Your_Resume.pdf" 
+                    className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 
                     hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
                     >
-                        View Project
+                        View Resume
                     </a>
 
 

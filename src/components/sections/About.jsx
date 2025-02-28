@@ -43,7 +43,7 @@ export const About = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Frontend</h3>
+                            <h3 className="text-xl font-bold mb-4">Frontend Skills</h3>
                             <div className="flex flex-wrap gap-2">
                                 {frontendSkills.map((tech, key) => (
                                     <span 
@@ -59,7 +59,7 @@ export const About = () => {
                         </div>
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4"> Backend</h3>
+                            <h3 className="text-xl font-bold mb-4"> Backend Skills</h3>
                             <div className="flex flex-wrap gap-2">
                                 {backendSkills.map((tech, key) => (
                                     <span 
@@ -77,40 +77,50 @@ export const About = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
-                        <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-                        <ul className="list-disc list-inside text-gray">
-                            <li>
-                                <strong>Post Gradutate Degree </strong> - Lambton College (2023 -2025) <b>Course:</b> Full Stack Software Development
-                            </li>
-                            <li>
-                                
-                            </li>
-                        </ul>
-                    </div>
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
+                    <ul className="list-disc list-inside text-gray-400 space-y-4">
+                        
+                            <h4 className="font-semibold text-gray-100">
+                                Post Graduate Degree at Lambton College (2023 - 2025)
+                            </h4>
+                            <p className="mt-2 text-gray-400">
+                                - Full Stack Software Development
+                            </p>
+                        
+                        
+                            <h4 className="font-semibold text-gray-100">
+                                Bachelor Degree In Computer Science at University Of Wolverhampton (2017 - 2020)
+                            </h4>
+                            <p className="mt-2 text-gray-400">
+                                - Information Technology
+                            </p>
+                        
+                    </ul>
+                </div>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
                         <h3 className="text-xl font-bold mb-4"> 💼 Work Experience</h3>
-                        <div className="space-y-4 text-gray-300">
-                            <div>
-                                <h4 className="font-semibold">
+                        <ul className="list-disc list-inside text-gray-400 space-y-4">
+                          
+                            <h4 className="font-semibold text-gray-100">
                                     {" "}
                                     UI/UX Designer at Themegrill Pvt Ltd (2022 - 2023) {" "}
                                 </h4>
-                                <p> 
-                                    Developed and maintained microservices for cloud-based applications.
+                                <p className="mt-2 text-gray-400"> 
+                                    - Revamped the product website, developing modern interfaces and dynamic content.
                                 </p>
-                            </div>
+                          
 
-                            <div>
-                                <h4 className="font-semibold">
+                            
+                            <h4 className="font-semibold text-gray-100">
                                     {" "}
                                     Frontend Developer at Sofos Software (2020 - 2022) </h4>
-                                <p> 
-                                    Developed and maintained microservices for cloud-based applications.
+                                <p className="mt-2 text-gray-400"> 
+                                    - Developed clients projects aligning both design and development required for business.
                                 </p>
-                            </div>   
+                          
 
-                        </div>
+                        </ul>
                     </div>
                 </div>                    
 
