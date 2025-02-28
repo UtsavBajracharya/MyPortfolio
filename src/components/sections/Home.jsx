@@ -5,11 +5,10 @@ export const Home = () => {
         <section
             id="home"
             className="min-h-screen flex items-center justify-center relative bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: "url('/https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }} // Replace with your image path
         >
             {/* Dark Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/90"></div>
 
-            <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
 
         <RevealOnScroll>
             <div className="text-center z-10 px-4">
