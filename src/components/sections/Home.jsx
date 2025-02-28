@@ -21,7 +21,7 @@ export const Home = () => {
                     Building Creative Designs Since <strong>2021</strong>
                 </p>
 
-                <div className="flex justify-center space-x-4">
+                <div className="flex justify-center flex-wrap gap-4">
                     <a href="https://drive.google.com/file/d/1iySmY_WLZQMFlO_6QUKx1BSZ2sgPvVKf/view?usp=sharing" 
                     target="_blank"
                     rel="noopener noreferrer"
