@@ -3,6 +3,10 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from 'emailjs-com';
 
 export const Contact = () => {
+    
+    const SERVICE_ID  = "service_5h4f3wq";
+    const TEMPLATE_ID = "template_r2cnr2h";
+    const PUBLIC_KEY  = "JVQLIBBjxnHGmb3C0";
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -16,10 +20,10 @@ export const Contact = () => {
 
         emailjs
             .sendForm(
-                import.meta.env.VITE_SERVICE_ID, 
-                import.meta.env.VITE_TEMPLATE_ID, 
+                import.meta.env.SERVICE_ID, 
+                import.meta.env.TEMPLATE_ID, 
                 e.target, 
-                import.meta.env.VITE_PUBLIC_KEY
+                import.meta.env.PUBLIC_KEY
             )
             .then ((result) => {
                 alert("Message Sent!");
