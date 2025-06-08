@@ -22,7 +22,7 @@ export const Home = () => {
                 </p>
 
                 <div className="flex justify-center flex-wrap gap-4">
-                    <a href="https://drive.google.com/file/d/1iySmY_WLZQMFlO_6QUKx1BSZ2sgPvVKf/view?usp=sharing" 
+                    <a href="https://drive.google.com/file/d/1uilqNDs_daq92r8jRcT2PCJZ9HBiYkfO/view" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 
